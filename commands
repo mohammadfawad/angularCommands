@@ -1,0 +1,49 @@
+		Node package management - NPM 		
+Installed Package List n Gloabal List
+	npm list --depth 0 
+	npm list -g --depth 0
+---------------------------------------------------------------------------------------
+		Angular Commands
+Install the Angular CLI
+	npm install -g @angular/cli
+	ng --version (or ng -v)
+Create New Angular Project
+	ng new newAngularProject
+Run Project
+	cd newAngularProject
+	ng serve --o
+Create new Component in components folder
+	ng generate component components/header 
+	ng g c componentName
+Create new Service
+	ng generate service serviceName
+	ng g s serviceName
+Create custom Pipe
+	ng generate pipe pipes/reversePipe
+Create Custom Directives
+	ng generate directive directives/myIf
+Run Server
+	npm run server
+--------------------------------------------------------------------------------------
+		TypeScript Commands
+Installation globally
+	sudo npm i -g typescript
+	tsc -v
+Compilation One or All
+	tsc index/fileName
+	tsc
+Watch Mode
+	tsc --watch index/fileName
+Creating Configuration File
+	tsc --init
+Configurations
+	output Javascript Files[create folder /dist in main directory manually]
+		"outDir": "./dist"
+	Source TS Files[create folder /src in main directory manually]
+		"rootDir": "./src"
+--------------------------------------------------------------------------------------
+		Node ExpressJs
+Run Restful Server
+	node server[fileName]
+
+
